@@ -1,6 +1,40 @@
-git set-url <thereallevond.music>
-#Levond
-##Music is my journal
 
-[Spotify](https://open.spotify.com/artist/6otgGqvFhZamZp5fIg7Lyz?si=ijj-48FFQI6peEIAPkADLA)
-[youtube](https://youtu.be/RJCf8FFeZws?si=5A2a6B493LM4mJuo)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Music Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Music Collection</h1>
+  </header>
+
+  <section class="music-list">
+    <h2>My Songs</h2>
+    <ul>
+      <!-- Add your songs here -->
+      <li>
+        <span>Song Title 1</span>
+        <audio controls>
+          <source src="music/song1.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+      </li>
+      <li>
+        <span>Song Title 2</span>
+        <audio controls>
+          <source src="music/song2.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2024 My Music Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
